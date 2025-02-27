@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f7ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6eaae6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 15px 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 10px 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #003366;
+}
+
+.juegos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.juego {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 230px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.juego:hover {
+    transform: scale(1.07);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.juego img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.precio {
+    font-weight: bold;
+    color: #0066cc;
+    display: block;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #66b3ff;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #3399ff;
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #6eaae6;
+    color: white;
+    margin-top: 20px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 15px 15px 0 0;
+}
